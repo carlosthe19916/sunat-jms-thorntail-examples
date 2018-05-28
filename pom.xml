@@ -60,6 +60,7 @@
 
     <modules>
         <module>desktop-application</module>
+        <module>wildfly-swarm-application</module>
     </modules>
 
     <build>
