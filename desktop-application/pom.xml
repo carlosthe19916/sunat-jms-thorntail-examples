@@ -18,11 +18,11 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-all</artifactId>
-            <version>5.15.3</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.activemq</groupId>-->
+            <!--<artifactId>activemq-all</artifactId>-->
+            <!--<version>5.15.3</version>-->
+        <!--</dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-jms-client-bom -->
         <dependency>
@@ -30,6 +30,12 @@
             <artifactId>wildfly-jms-client-bom</artifactId>
             <version>11.0.0.Final</version>
             <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>org.wildfly</groupId>
+            <artifactId>wildfly-client-all</artifactId>
+            <version>10.1.0.Final</version>
         </dependency>
 
         <dependency>
